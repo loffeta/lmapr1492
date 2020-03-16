@@ -10,7 +10,7 @@
     "mpr= MPRester(\"0GxLMrZ3A1RsWdHOh\")\n",
     "\n",
     "data= mp.query(\"mp-1009129\",[\"cif\"])\n",
-    "flux= open(\"MgO_mp-1009129_symmetrized.cif\",\"w\")\n",
+    "flux= open(\"MgO_mp-1009129_symmetrized.cif\",\"w\")\n", 
     "\n",
     "for key, value in data.items():\n",
     "    flux.write(str(value))\n",
